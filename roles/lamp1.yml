@@ -1,6 +1,6 @@
 - hosts: agents
   roles:
-    - gsoft.azure_devops_agent
+    gsoft.azure_devops_agent
   vars:
     - az_devops_agent_role: build
     - az_devops_accountname: trenardext0115
