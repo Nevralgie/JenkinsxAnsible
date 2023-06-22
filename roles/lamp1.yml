@@ -6,7 +6,7 @@
         - az_devops_accountname: trenardext0115
         - az_devops_accesstoken: dw743vtc7wq3e3go4yx4d2dkjwwrkyrwdngo3a7gxht3qozuch5q
 
-- hosts: all
+- hosts: apache
 
 - name: Install apache
   ansible.builtin.import_playbook: apache.yml
