@@ -1,12 +1,3 @@
-- hosts: agents
-  roles:
-      - gsoft.azure_devops_agent
-  vars:
-    - az_devops_agent_role: deployment
-    - az_devops_accountname: trenardext0115
-    - az_devops_accesstoken: dw743vtc7wq3e3go4yx4d2dkjwwrkyrwdngo3a7gxht3qozuch5q
-    - az_devops_project_name: Ansible
-
 - hosts: apache
 
 - name: Install apache
