@@ -1,10 +1,10 @@
 - hosts: agents
-      roles:
-        - gsoft.azure_devops_agent
-      vars:
-        - az_devops_agent_role: build
-        - az_devops_accountname: trenardext0115
-        - az_devops_accesstoken: dw743vtc7wq3e3go4yx4d2dkjwwrkyrwdngo3a7gxht3qozuch5q
+  roles:
+    - gsoft.azure_devops_agent
+  vars:
+    - az_devops_agent_role: build
+    - az_devops_accountname: trenardext0115
+    - az_devops_accesstoken: dw743vtc7wq3e3go4yx4d2dkjwwrkyrwdngo3a7gxht3qozuch5q
 
 - hosts: apache
 
