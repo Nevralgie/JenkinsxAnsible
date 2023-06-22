@@ -1,6 +1,6 @@
 - name: Install MySQL
   user: azureuser
-  hosts: mysqlserver
+  hosts: Ansibletarget2
   become: True
   become_user: root
   vars:
