@@ -1,6 +1,6 @@
 - name: Install Docker
   user: azureuser
-  hosts: webserver
+  hosts: Ansibletarget
   become: True
   become_user: root
   tasks:
